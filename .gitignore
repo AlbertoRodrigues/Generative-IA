@@ -1,2 +1,1 @@
-.env
-/env_llm/
+notebooks//chave_api.py
