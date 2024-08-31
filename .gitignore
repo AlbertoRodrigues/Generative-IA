@@ -2,3 +2,4 @@ function_calling/.env
 working-with-openai-api/.env
 chunking/.env
 agents/.env
+crew-ai/.env
