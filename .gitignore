@@ -1,5 +1,5 @@
 function_calling/.env
 working-with-openai-api/.env
-chunking/.env
+rag/.env
 agents/.env
 crew-ai/.env
