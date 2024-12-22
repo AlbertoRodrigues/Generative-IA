@@ -3,3 +3,4 @@ working-with-openai-api/.env
 rag/.env
 agents/.env
 crew-ai/.env
+agentic-systems-with-langchain-and-langgraph/.env

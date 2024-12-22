@@ -1,0 +1,39 @@
+Contexto da Base de Dados
+
+A base de dados contém informações coletadas de interações com um assistente virtual automático. Cada linha representa uma interação entre um usuário e o assistente, abordando diferentes assuntos, com perguntas feitas pelos usuários e respostas geradas automaticamente. Além disso, há um campo para registrar o feedback do usuário em relação à resposta recebida.
+Metadados
+Colunas da Base
+
+    Nome
+        Descrição: Nome fictício do usuário que realizou a interação.
+        Formato: Texto (exemplo: "João", "Ana").
+
+    Idade
+        Descrição: Idade do usuário no momento da interação.
+        Formato: Número inteiro entre 18 e 65.
+
+    Data
+        Descrição: Data e hora da interação com o assistente virtual.
+        Formato: String no padrão "YYYY-MM-DD HH:MM:SS" (exemplo: "2024-12-20 14:35:00").
+
+    Pergunta
+        Descrição: Pergunta realizada pelo usuário ao assistente virtual.
+        Formato: Texto (exemplo: "Como economizar?", "O que é IA?").
+
+    Resposta
+        Descrição: Resposta gerada automaticamente pelo assistente com base na pergunta feita.
+        Formato: Texto (exemplo: "Essa é uma possível resposta para 'Como economizar?'.").
+
+    Assunto
+        Descrição: Tema principal relacionado à pergunta e resposta na interação.
+        Formato: Texto.
+        Valores únicos:
+            "Finanças"
+            "Tecnologia"
+            "Educação"
+            "Saúde"
+            "Entretenimento"
+
+    Feedback
+        Descrição: Avaliação do usuário em relação à resposta recebida.
+        Formato: Texto com valores "Curti" ou "Não curti".
