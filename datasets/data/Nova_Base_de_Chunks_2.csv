@@ -1,0 +1,16 @@
+id,chunk
+chunk_71,"O aprendizado não supervisionado é um tipo de aprendizado de máquina onde o modelo trabalha com dados não rotulados, ou seja, sem a presença de uma resposta conhecida para cada entrada. O objetivo é identificar padrões ou estruturas nos dados."
+chunk_72,"Algoritmos de aprendizado não supervisionado incluem agrupamento (clustering), onde o modelo agrupa dados semelhantes, e redução de dimensionalidade, que tenta reduzir o número de variáveis no conjunto de dados sem perder informações importantes."
+chunk_73,"O k-means é um algoritmo popular de clustering, onde os dados são divididos em k grupos com base na proximidade das amostras. O PCA (Principal Component Analysis) é um exemplo de técnica de redução de dimensionalidade."
+chunk_74,"O aprendizado não supervisionado é amplamente utilizado em tarefas como segmentação de mercado, análise exploratória de dados e compressão de imagem."
+chunk_75,"Uma das principais vantagens do aprendizado não supervisionado é que ele pode ser aplicado a dados em grande quantidade sem a necessidade de rótulos, o que facilita o uso em muitos cenários práticos."
+chunk_76,O aprendizado por reforço é uma área do aprendizado de máquina em que um agente aprende a tomar decisões sequenciais em um ambiente para maximizar uma recompensa acumulada ao longo do tempo.
+chunk_77,"O agente interage com o ambiente, realiza ações e recebe feedback em forma de recompensas ou penalidades. O objetivo é que o agente aprenda uma política, ou seja, uma estratégia que maximize sua recompensa."
+chunk_78,"Um exemplo clássico de aprendizado por reforço é o treinamento de um agente para jogar um jogo, como Xadrez ou Go, onde o agente aprende a tomar as melhores decisões com base no estado atual do jogo."
+chunk_79,Técnicas como Q-learning e Deep Q Networks (DQN) são frequentemente usadas no aprendizado por reforço para otimizar a política do agente.
+chunk_80,"O aprendizado por reforço é amplamente utilizado em áreas como robótica, jogos e sistemas autônomos, permitindo que máquinas realizem tarefas complexas de forma autônoma."
+chunk_81,"A função de perda (ou função de custo) em aprendizado de máquina é uma medida de quão bem o modelo está se saindo durante o treinamento, comparando as previsões do modelo com os valores reais dos dados."
+chunk_82,A função de perda tem como objetivo guiar o modelo na direção certa durante o treinamento. O modelo tenta minimizar o valor da função de perda ajustando seus parâmetros.
+chunk_83,"Exemplos de funções de perda incluem a função de perda quadrática média (MSE), que é comum em problemas de regressão, e a entropia cruzada, que é amplamente usada em problemas de classificação."
+chunk_84,"A função de perda pode ser usada em conjunto com um algoritmo de otimização, como o gradiente descendente, para ajustar os parâmetros do modelo e minimizar o erro."
+chunk_85,"A escolha da função de perda depende do tipo de problema que está sendo resolvido, como regressão ou classificação, e tem um impacto direto na performance do modelo."
