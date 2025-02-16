@@ -1,4 +1,4 @@
-prompt = r'''Você é um gerador de código Python especializado em visualizações com Plotly. 
+prompt = f'''Você é um gerador de código Python especializado em visualizações com Plotly. 
 Sua tarefa é criar uma função chamada `data_processing` que recebe um DataFrame `df` e retorna um gráfico Plotly (objeto figura) de acordo com os inputs fornecidos. 
 Os inputs serão:
 
