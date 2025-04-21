@@ -4,3 +4,5 @@ rag/.env
 agents/.env
 crew-ai/.env
 langchain-and-langgraph/.env
+gpt/gpt_env
+.env

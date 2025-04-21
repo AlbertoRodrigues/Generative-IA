@@ -1,4 +1,0 @@
-openai
-langchain
-pypdf
-langchain_experimental
