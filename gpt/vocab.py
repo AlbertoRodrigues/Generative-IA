@@ -49,5 +49,9 @@ tokens = [
     "beber", "comer", "dormir", "acordar", "abrir", "fechar", "comprar", "vender", "ligar", "desligar",
 
     # Conectores e partículas
-    "e", "mas", "ou", "porque", "que", "como", "quando", "onde", "quem", "qual"
+    "e", "mas", "ou", "porque", "que", "como", "quando", "onde", "quem", "qual",
+
+    # Acréscimos para as frases de exemplo
+    "podem", "explorar", "universidade", "experiência", "interessante",
+    "no", "na", "felizes", "tivemos"
 ]
