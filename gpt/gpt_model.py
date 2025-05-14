@@ -3,12 +3,17 @@ import torch
 import torch.nn as nn
 from vocab import tokens
 
+import math
+import torch
+import torch.nn as nn
+from vocab import tokens
+
 class GPT(nn.Module):
-    def __init__(self, tokens_list):
+    def __init__(self):
         super().__init__()
-        self.tokens_list    = tokens_list
-        self.max_tokens     = 15
-        self.context_length = 64
+        
+        self.max_tokens     = 12
+        self.context_length = 16
         self.vocab_size     = 209
         self.n_layers       = 2      # agora duas camadas
         self.n_heads        = 4      # agora quatro cabeças
@@ -44,6 +49,11 @@ class GPT(nn.Module):
         self.lm_head   = nn.Linear(self.n_embd, self.vocab_size)
 
         assert self.n_embd % self.n_heads == 0, "n_embd deve ser divisível por n_heads"
+
+    def init_tokens(self, tokens_list):
+        self.tokens_list = tokens_list
+        self.tokens_vocab = {token: idx for idx, token in enumerate(tokens)}
+        self.idx_to_token = {idx: token for token, idx in self.tokens_vocab.items()}
 
     def mlp(self, x):
         x = self.fc1(x)
@@ -84,9 +94,6 @@ class GPT(nn.Module):
         return self.out_proj(y)
 
     def tokens_idx(self, tokens_chosen):
-        self.tokens_vocab = {token: idx for idx, token in enumerate(tokens)}
-        self.idx_to_token = {idx: token for token, idx in self.tokens_vocab.items()}
-
         # Pegar os índices correspondentes
         indices = [self.tokens_vocab[token] for token in tokens_chosen]
 
@@ -128,8 +135,14 @@ class GPT(nn.Module):
         return self.idx_to_token[idx]
 
     def predict_all_sentence(self):
+        # guarda cópia do estado original
+        original = list(self.tokens_list)
+
         for step in range(self.max_tokens):
             nt = self.predict_next_token()
             self.tokens_list.append(nt)
             print(f"Passo {step+1}: {' '.join(self.tokens_list)}")
-        return self.tokens_list
+
+        # recupera o estado original
+        self.tokens_list = original
+        return list(original)
