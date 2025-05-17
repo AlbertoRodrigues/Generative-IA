@@ -15,9 +15,9 @@ class GPT(nn.Module):
         self.max_tokens     = 12
         self.context_length = 16
         self.vocab_size     = 209
-        self.n_layers       = 2      # agora duas camadas
+        self.n_layers       = 5     # agora duas camadas
         self.n_heads        = 4      # agora quatro cabeças
-        self.n_embd         = 16
+        self.n_embd         = 256
 
         # Embeddings
         self.wte = nn.Embedding(self.vocab_size, self.n_embd)
