@@ -7,5 +7,6 @@ langchain-and-langgraph/.env
 gpt/gpt_env
 .env
 venv-genai
+venv-genai2
 rag/models/*
 rag/tmp_trainer/*
