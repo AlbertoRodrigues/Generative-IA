@@ -1,0 +1,13 @@
+nome_produto,tipo,quantidade_vendida,data_vencimento,vendas_reais,preco_unitario,fornecedor
+Leite Integral,Laticínio,120,2025-08-15,360.0,3.0,Laticínios Brasil
+Arroz Tipo 1,Cereal,85,2026-01-10,255.0,3.0,Arroz & Cia
+Feijão Preto,Leguminosa,90,2025-12-05,225.0,2.5,Leguminosas Ltda
+Açúcar Refinado,Açúcar,75,2026-03-20,93.75,1.25,Doce Açúcar
+Óleo de Soja,Óleo,110,2025-11-30,165.0,1.5,Óleos Ouro
+Pão de Forma,Panificação,200,2025-07-20,400.0,2.0,Padaria Central
+Manteiga,Laticínio,50,2025-09-12,150.0,3.0,Manteigas e Cia
+Café Torrado,Bebida,180,2026-02-28,540.0,3.0,Café Puro
+Macarrão Espaguete,Massa,130,2025-10-05,195.0,1.5,Massas Rápidas
+Extrato de Tomate,Molho,95,2025-12-25,142.5,1.5,Tomates Express
+Sal Refinado,Tempero,140,2026-01-15,210.0,1.5,Temperos Gerais
+Farinha de Trigo,Cereal,160,2025-11-10,320.0,2.0,Trigos Finos
