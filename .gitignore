@@ -8,5 +8,6 @@ gpt/gpt_env
 .env
 venv-genai
 venv-genai2
+trainer_output/*
 rag/models/*
 rag/tmp_trainer/*
