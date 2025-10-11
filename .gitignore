@@ -6,6 +6,7 @@ crew-ai/.env
 langchain-and-langgraph/.env
 gpt/gpt_env
 .env
+venv
 venv-genai
 venv-genai2
 trainer_output/*

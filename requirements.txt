@@ -1,0 +1,7 @@
+openai
+transformers
+langgraph
+pandas
+numpy
+scikit-learn
+nltk
