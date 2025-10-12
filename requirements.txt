@@ -5,3 +5,6 @@ pandas
 numpy
 scikit-learn
 nltk
+rank_bm25
+unidecode
+rapidfuzz
