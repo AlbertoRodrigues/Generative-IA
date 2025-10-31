@@ -8,3 +8,5 @@ nltk
 rank_bm25
 unidecode
 rapidfuzz
+faiss-cpu
+sentence_transformers
