@@ -10,3 +10,4 @@ venv
 trainer_output/*
 rag/models/*
 rag/tmp_trainer/*
+msmarco/collectionandqueries/collection.tsv
